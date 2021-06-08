@@ -31,7 +31,11 @@ function randomListProduct(listCategory, n) {
                 name: faker.commerce.productName(),
                 price: Number.parseFloat(faker.commerce.price()),
                 description: faker.commerce.productDescription(),
-                image: faker.image.image(),
+                image: [
+                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/2a_1dae4acc-3f60-44d2-a5cd-d85d36709d25_370x.jpg?v=1601437702",
+                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/1a_72f2474e-7e99-45e6-96e5-ddda5fc59906_370x.jpg?v=1601366130",
+                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/3a_370x.jpg?v=1601438639"
+                ],
                 categoryId: category.id,
                 createdAt: Date.now(),
                 updatedAt: Date.now()
