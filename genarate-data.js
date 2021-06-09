@@ -33,8 +33,14 @@ function randomListProduct(listCategory, n) {
                 description: faker.commerce.productDescription(),
                 image: [
                     "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/2a_1dae4acc-3f60-44d2-a5cd-d85d36709d25_370x.jpg?v=1601437702",
-                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/1a_72f2474e-7e99-45e6-96e5-ddda5fc59906_370x.jpg?v=1601366130",
-                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/3a_370x.jpg?v=1601438639"
+                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/1a_72f2474e-7e99-45e6-96e5-ddda5fc59906_370x.jpg?v=1601366130"
+                ],
+                image_library: [
+                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/1_c2307dbf-d624-4bcd-b3de-99a7963f7496_900x900.jpg?v=1601366129",
+                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/3_900x900.jpg?v=1601438639",
+                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/4_9a093079-3a93-4b20-a79c-04f3f8f0a143_900x900.jpg?v=1601438790",
+                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/4c_900x900.jpg?v=1601438791",
+                    "https://cdn.shopify.com/s/files/1/0265/5728/4445/products/4d_900x900.jpg?v=1601438791"
                 ],
                 categoryId: category.id,
                 createdAt: Date.now(),
