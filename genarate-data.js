@@ -54,7 +54,7 @@ function randomListProduct(listCategory, n) {
 
 (() => {
     const listCategory = randomListCategory(5)
-    const listProduct = randomListProduct(listCategory, 5)
+    const listProduct = randomListProduct(listCategory, 8)
     const db = {
         categories: listCategory,
         products: listProduct
